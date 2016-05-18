@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4124CEA71C812965002AB9B5 /* UIImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4124CEA61C812965002AB9B5 /* UIImageLoader.m */; };
 		41B2A97F1C7FC50700A86B07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B2A97E1C7FC50700A86B07 /* main.m */; };
 		41B2A9821C7FC50700A86B07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B2A9811C7FC50700A86B07 /* AppDelegate.m */; };
 		41B2A9851C7FC50700A86B07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B2A9841C7FC50700A86B07 /* ViewController.m */; };
@@ -16,6 +17,10 @@
 		41B2A9901C7FC50700A86B07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B2A98E1C7FC50700A86B07 /* LaunchScreen.storyboard */; };
 		41B2A99B1C7FC50700A86B07 /* SampleLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B2A99A1C7FC50700A86B07 /* SampleLayoutTests.m */; };
 		41B2A9A61C7FC50700A86B07 /* SampleLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B2A9A51C7FC50700A86B07 /* SampleLayoutUITests.m */; };
+		41B2A9BD1C7FD92600A86B07 /* ChristopherTimelineDataBase.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41B2A9BC1C7FD92600A86B07 /* ChristopherTimelineDataBase.plist */; };
+		41B2A9C41C7FE44100A86B07 /* UserDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B2A9C31C7FE44100A86B07 /* UserDataModel.m */; };
+		41B2A9C81C7FEBDA00A86B07 /* GetUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B2A9C71C7FEBDA00A86B07 /* GetUserData.m */; };
+		41B2A9CC1C8009E100A86B07 /* CustomTimelineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B2A9CB1C8009E100A86B07 /* CustomTimelineTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4124CEA51C812965002AB9B5 /* UIImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageLoader.h; sourceTree = "<group>"; };
+		4124CEA61C812965002AB9B5 /* UIImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageLoader.m; sourceTree = "<group>"; };
 		41B2A97A1C7FC50600A86B07 /* SampleLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B2A97E1C7FC50700A86B07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41B2A9801C7FC50700A86B07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +60,13 @@
 		41B2A9A11C7FC50700A86B07 /* SampleLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B2A9A51C7FC50700A86B07 /* SampleLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleLayoutUITests.m; sourceTree = "<group>"; };
 		41B2A9A71C7FC50700A86B07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41B2A9BC1C7FD92600A86B07 /* ChristopherTimelineDataBase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ChristopherTimelineDataBase.plist; path = UserHardCodedDataBase/ChristopherTimelineDataBase.plist; sourceTree = "<group>"; };
+		41B2A9C21C7FE44100A86B07 /* UserDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserDataModel.h; path = UserTimelineDataModel/UserDataModel.h; sourceTree = "<group>"; };
+		41B2A9C31C7FE44100A86B07 /* UserDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserDataModel.m; path = UserTimelineDataModel/UserDataModel.m; sourceTree = "<group>"; };
+		41B2A9C61C7FEBDA00A86B07 /* GetUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetUserData.h; path = GetUserDataFromDatabase/GetUserData.h; sourceTree = "<group>"; };
+		41B2A9C71C7FEBDA00A86B07 /* GetUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetUserData.m; path = GetUserDataFromDatabase/GetUserData.m; sourceTree = "<group>"; };
+		41B2A9CA1C8009E100A86B07 /* CustomTimelineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTimelineTableViewCell.h; path = CustomTimelineTableViewCell/CustomTimelineTableViewCell.h; sourceTree = "<group>"; };
+		41B2A9CB1C8009E100A86B07 /* CustomTimelineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTimelineTableViewCell.m; path = CustomTimelineTableViewCell/CustomTimelineTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4124CE9F1C810757002AB9B5 /* UIImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				4124CEA51C812965002AB9B5 /* UIImageLoader.h */,
+				4124CEA61C812965002AB9B5 /* UIImageLoader.m */,
+			);
+			name = UIImageLoader;
+			sourceTree = "<group>";
+		};
 		41B2A9711C7FC50600A86B07 = {
 			isa = PBXGroup;
 			children = (
@@ -103,15 +126,11 @@
 		41B2A97C1C7FC50700A86B07 /* SampleLayout */ = {
 			isa = PBXGroup;
 			children = (
-				41B2A9801C7FC50700A86B07 /* AppDelegate.h */,
-				41B2A9811C7FC50700A86B07 /* AppDelegate.m */,
-				41B2A9831C7FC50700A86B07 /* ViewController.h */,
-				41B2A9841C7FC50700A86B07 /* ViewController.m */,
-				41B2A9861C7FC50700A86B07 /* Main.storyboard */,
-				41B2A98C1C7FC50700A86B07 /* Assets.xcassets */,
-				41B2A98E1C7FC50700A86B07 /* LaunchScreen.storyboard */,
-				41B2A9911C7FC50700A86B07 /* Info.plist */,
-				41B2A9891C7FC50700A86B07 /* SampleLayout.xcdatamodeld */,
+				4124CE9F1C810757002AB9B5 /* UIImageLoader */,
+				41B2A9C01C7FE19600A86B07 /* Main_AppDelegate */,
+				41B2A9C91C80093800A86B07 /* Model */,
+				41B2A9BF1C7FDEED00A86B07 /* View */,
+				41B2A9BE1C7FD92E00A86B07 /* Controller/Classes */,
 				41B2A97D1C7FC50700A86B07 /* Supporting Files */,
 			);
 			path = SampleLayout;
@@ -120,6 +139,8 @@
 		41B2A97D1C7FC50700A86B07 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				41B2A9911C7FC50700A86B07 /* Info.plist */,
+				41B2A9891C7FC50700A86B07 /* SampleLayout.xcdatamodeld */,
 				41B2A97E1C7FC50700A86B07 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -141,6 +162,80 @@
 				41B2A9A71C7FC50700A86B07 /* Info.plist */,
 			);
 			path = SampleLayoutUITests;
+			sourceTree = "<group>";
+		};
+		41B2A9BB1C7FD8E700A86B07 /* UserHardCodedDataBase */ = {
+			isa = PBXGroup;
+			children = (
+				41B2A9BC1C7FD92600A86B07 /* ChristopherTimelineDataBase.plist */,
+			);
+			name = UserHardCodedDataBase;
+			sourceTree = "<group>";
+		};
+		41B2A9BE1C7FD92E00A86B07 /* Controller/Classes */ = {
+			isa = PBXGroup;
+			children = (
+				41B2A9831C7FC50700A86B07 /* ViewController.h */,
+				41B2A9841C7FC50700A86B07 /* ViewController.m */,
+			);
+			name = Controller/Classes;
+			sourceTree = "<group>";
+		};
+		41B2A9BF1C7FDEED00A86B07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41B2A9861C7FC50700A86B07 /* Main.storyboard */,
+				41B2A98C1C7FC50700A86B07 /* Assets.xcassets */,
+				41B2A98E1C7FC50700A86B07 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		41B2A9C01C7FE19600A86B07 /* Main_AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				41B2A9801C7FC50700A86B07 /* AppDelegate.h */,
+				41B2A9811C7FC50700A86B07 /* AppDelegate.m */,
+			);
+			name = Main_AppDelegate;
+			sourceTree = "<group>";
+		};
+		41B2A9C11C7FE1AE00A86B07 /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				41B2A9C21C7FE44100A86B07 /* UserDataModel.h */,
+				41B2A9C31C7FE44100A86B07 /* UserDataModel.m */,
+			);
+			name = UserModel;
+			sourceTree = "<group>";
+		};
+		41B2A9C51C7FEB1700A86B07 /* GetUserDataFromDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				41B2A9C61C7FEBDA00A86B07 /* GetUserData.h */,
+				41B2A9C71C7FEBDA00A86B07 /* GetUserData.m */,
+			);
+			name = GetUserDataFromDatabase;
+			sourceTree = "<group>";
+		};
+		41B2A9C91C80093800A86B07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41B2A9CD1C800B1F00A86B07 /* CustomTimelineTableViewCell */,
+				41B2A9C51C7FEB1700A86B07 /* GetUserDataFromDatabase */,
+				41B2A9C11C7FE1AE00A86B07 /* UserModel */,
+				41B2A9BB1C7FD8E700A86B07 /* UserHardCodedDataBase */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		41B2A9CD1C800B1F00A86B07 /* CustomTimelineTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				41B2A9CA1C8009E100A86B07 /* CustomTimelineTableViewCell.h */,
+				41B2A9CB1C8009E100A86B07 /* CustomTimelineTableViewCell.m */,
+			);
+			name = CustomTimelineTableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +343,7 @@
 			files = (
 				41B2A9901C7FC50700A86B07 /* LaunchScreen.storyboard in Resources */,
 				41B2A98D1C7FC50700A86B07 /* Assets.xcassets in Resources */,
+				41B2A9BD1C7FD92600A86B07 /* ChristopherTimelineDataBase.plist in Resources */,
 				41B2A9881C7FC50700A86B07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +370,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				41B2A9851C7FC50700A86B07 /* ViewController.m in Sources */,
+				41B2A9C41C7FE44100A86B07 /* UserDataModel.m in Sources */,
+				4124CEA71C812965002AB9B5 /* UIImageLoader.m in Sources */,
 				41B2A98B1C7FC50700A86B07 /* SampleLayout.xcdatamodeld in Sources */,
+				41B2A9C81C7FEBDA00A86B07 /* GetUserData.m in Sources */,
+				41B2A9CC1C8009E100A86B07 /* CustomTimelineTableViewCell.m in Sources */,
 				41B2A9821C7FC50700A86B07 /* AppDelegate.m in Sources */,
 				41B2A97F1C7FC50700A86B07 /* main.m in Sources */,
 			);
@@ -348,6 +448,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -370,6 +471,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -392,6 +494,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -407,6 +510,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -417,10 +521,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SampleLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jaypatel.SampleLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaypatel.SampleLayoutBeta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -428,10 +535,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SampleLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jaypatel.SampleLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaypatel.SampleLayoutBeta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -502,6 +612,7 @@
 				41B2A9AC1C7FC50700A86B07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41B2A9AD1C7FC50700A86B07 /* Build configuration list for PBXNativeTarget "SampleLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +621,7 @@
 				41B2A9AF1C7FC50700A86B07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41B2A9B01C7FC50700A86B07 /* Build configuration list for PBXNativeTarget "SampleLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +630,7 @@
 				41B2A9B21C7FC50700A86B07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
