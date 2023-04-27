@@ -7,5 +7,3 @@
 --> Async Image is being done with UIImageLoader Open Source Library. 
 <br />
 
-<img src="http://salemount.com/SampleLayout/screenshot.jpg" width="960" height="470" />
-
